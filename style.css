@@ -1,0 +1,32 @@
+:root {
+    --font-size: 20px;
+    --color: #ffffff;
+    --background-color: #193549;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+#controls {
+    margin: auto;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    background: #193549;
+    color: #ffffff;
+    font-family: "helvetica neue", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+input {
+    width: 100px;
+}
+
+#contents {
+    padding: 20px;
+    font-size: var(--font-size);
+    color: var(--color);
+    background-color: var(--background-color);
+}
